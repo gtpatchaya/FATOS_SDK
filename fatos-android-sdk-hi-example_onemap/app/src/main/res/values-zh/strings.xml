@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FATOS map Hi</string>
+    <string name="app_registerId">kr.fatos.fatosmapHi</string>
+
+    <string name="string_wesearch">输入搜索条件</string>
+    <string name="string_weroutegoal">输入搜索条件</string>
+    <string name="string_weback">背部</string>
+    <string name="string_wemap">地图</string>
+    <string name="string_weallcate">所有类别</string>
+    <string name="string_wenodata">找不到搜索结果</string>
+    <string name="string_wesearchtext">搜寻...</string>
+    <string name="title_activity_tnavi_summary">TNaviSummaryActivity</string>
+    <string name="stirng_hipopuptitle">位置</string>
+    <string name="string_cancleroute">取消路线</string>
+
+    <string name="string_go_route_from_simul">走</string>
+    <string name="string_routeinfomation">路线信息</string>
+    <string name="string_via_hint">当前位置</string>
+
+    <string name="d">天</string>
+    <string name="hr">时间</string>
+    <string name="min">分</string>
+    <string name="eta">拿</string>
+    <string name="day">天</string>
+
+    <string name="h">时间</string>
+    <string name="day_small">天</string>
+    <string name="days_small">天</string>
+    <string name="AM">上午</string>
+    <string name="PM">下午</string>
+    <string name="km">公里</string>
+    <string name="m">米</string>
+
+    <string name="string_summary_recomm">推荐</string>
+    <string name="string_summary_exp">高速公路</string>
+    <string name="string_summary_short">最短距离</string>
+    <string name="string_summary_general">一般</string>
+    <string name="string_summary_free">自由</string>
+
+    <string name="string_summary_simul">模拟</string>
+    <string name="string_summary_go">走</string>
+
+    <string name="string_popupTitle_error">错误!</string>
+    <string name="string_popupTitle_btn_Ok">好</string>
+    <string name="string_higetting_search_direction">取得路线</string>
+
+    <string name="string_nostrasetting_country">语言</string>
+    <string name="string_nostrasetting_language">语言</string>
+    <string name="string_nostrasetting_category">类别</string>
+    <string name="string_wegeneral">一般</string>
+    <string name="string_wesettings">设定值</string>
+    <string name="string_wenavigation">导航</string>
+    <string name="string_wespeed_unit">速度单位</string>
+    <string name="string_wedistance_unit">距离单位</string>
+    <string name="string_weterm_of_use">使用期限</string>
+    <string name="string_weversion_info">版本信息</string>
+    <string name="string_wecopyright">版权</string>
+    <string name="string_weuuid">UUID</string>
+
+    <string name="string_welanguage_change">您要更改语言设置吗?\n某些屏幕可能无法以设定的语言显示</string>
+    <string name="string_wecountry_change">您要更改语言设置吗?</string>
+
+    <string name="string_welanguage_korean">한국어</string>
+    <string name="string_welanguage_english">English</string>
+    <string name="string_welanguage_th">ไทย</string>
+    <string name="string_welanguage_zh">中國語</string>
+
+    <string name="string_hiroutelinecolor">路线线颜色</string>
+    <string name="string_hirouteoptions">路线选项</string>
+    <string name="string_hinightmode">夜间模式</string>
+    <string name="string_himapcolortheme">地图颜色主题</string>
+    <string name="string_hidynamiczoom">动态变焦</string>
+    <string name="string_rpserver">RP 服务器</string>
+    <string name="string_hihighwaymode">公路模式</string>
+    <string name="string_himapdownload">地图下载</string>
+    <string name="string_hioption_optimal">最佳</string>
+
+    <string name="string_route_option">基本路线选项</string>
+    <string name="string_route_option_recomm">建议</string>
+    <string name="string_route_option_exp">高速公路</string>
+    <string name="string_route_option_general">一般路</string>
+    <string name="string_route_option_short">最短的</string>
+    <string name="string_route_option_free">自由路优先</string>
+
+    <string name="string_hireroute_status">路径已重新发现.</string>
+
+    <string name="warning_opt_route_least">至少提供 %1$d 条路线.</string>
+    <string name="warning_opt_route_upto">最多提供 %1$d 条路线.</string>
+
+    <string name="string_korea">大韩民国</string>
+
+    <string name="string_hi_close">出口 FATOS map Hi?</string>
+
+    <string name="string_hi_routerecovery">FATOS map Hi 路线复原</string>
+    <string name="string_hi_routebefore">您想早点获得路线指示吗?</string>
+
+    <string name="string_btn_popup_positive">是</string>
+    <string name="string_btn_popup_negative">没有</string>
+    <string name="string_content_route_cancel">您确定要取消路线吗?</string>
+    <string name="string_title_route_cancel">取消路线指引</string>
+
+    <string name="string_network_error">网络连接丢失.\请检查您的手机网络状态.</string>
+
+    <string name="string_setting_mapupdate_non_info">没有版本信息.</string>
+    <string name="histring_buildnumber">内部编号</string>
+    <string name="histring_basemapdb">底图数据</string>
+    <string name="histring_searchdb">POI 搜索数据</string>
+    <string name="histring_road">道路数据</string>
+    <string name="histring_sdi">安全驾驶辅助数据</string>
+
+    <string-array name="wecountry_names">
+        <item>Thailand</item>
+        <item>VietNam</item>
+        <item>Singapore</item>
+        <item>Philippines</item>
+        <item>Myanmar</item>
+        <item>Malaysia</item>
+        <item>Laos</item>
+        <item>Cambodia</item>
+        <item>Brunei</item>
+        <item>Republic of Korea</item>
+    </string-array>
+
+    <string-array name="wecountry_codes">
+        <item>TH</item>
+        <item>VN</item>
+        <item>SG</item>
+        <item>PH</item>
+        <item>MM</item>
+        <item>MY</item>
+        <item>LA</item>
+        <item>KH</item>
+        <item>BN</item>
+        <item>KR</item>
+    </string-array>
+
+    <string-array name="welanguage">
+        <item>한국어</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="onemap_country_names">
+        <item>English</item>
+        <item>中國語</item>
+        <item>ไทย</item>
+        <item>한국어</item>
+    </string-array>
+
+    <string-array name="onemap_country_codes">
+        <item>EN</item>
+        <item>CN</item>
+        <item>TH</item>
+        <item>KO</item>
+    </string-array>
+
+    <string-array name="onemap_language">
+        <item>English</item>
+        <item>中國語</item>
+        <item>ไทย</item>
+        <item>한국어</item>
+    </string-array>
+
+    <string name="onemap_route_type1">推荐</string>
+    <string name="onemap_route_type2">最快的</string>
+    <string name="onemap_route_type3">短</string>
+    <string name="onemap_route_type4">表示</string>
+    <string name="onemap_route_type5">自由</string>
+
+    <string name="route_cancel_msg">重新扫描时无法取消路径搜索.</string>
+</resources>

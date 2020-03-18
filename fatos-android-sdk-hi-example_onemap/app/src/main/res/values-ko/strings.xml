@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FATOS map Hi</string>
+    <string name="app_registerId">kr.fatos.fatosmapHi</string>
+
+    <string name="string_wesearch">검색어를 입력해주세요</string>
+    <string name="string_weroutegoal">검색어를 입력해주세요</string>
+    <string name="string_weback">뒤로가기</string>
+    <string name="string_wemap">지도</string>
+    <string name="string_weallcate">모든 카테고리</string>
+    <string name="string_wenodata">검색 결과가 없습니다.</string>
+    <string name="string_wesearchtext">검색중입니다...</string>
+    <string name="title_activity_tnavi_summary">TNaviSummaryActivity</string>
+    <string name="stirng_hipopuptitle">위치</string>
+    <string name="string_cancleroute">경로안내 취소</string>
+
+    <string name="string_go_route_from_simul">경로 안내</string>
+    <string name="string_routeinfomation">경로 요약</string>
+    <string name="string_via_hint">현재 위치</string>
+
+    <string name="d">일</string>
+    <string name="hr">시간</string>
+    <string name="min">분</string>
+    <string name="eta">소요</string>
+    <string name="day">일</string>
+
+    <string name="h">시간</string>
+    <string name="day_small">일</string>
+    <string name="days_small">일</string>
+    <string name="AM">오전</string>
+    <string name="PM">오후</string>
+    <string name="km">km</string>
+    <string name="m">m</string>
+
+    <string name="string_summary_recomm">추천</string>
+    <string name="string_summary_exp">고속도로</string>
+    <string name="string_summary_short">최단거리</string>
+    <string name="string_summary_general">일반</string>
+    <string name="string_summary_free">무료</string>
+
+    <string name="string_summary_simul">모의주행</string>
+    <string name="string_summary_go">안내시작</string>
+
+    <string name="string_popupTitle_error">오류</string>
+    <string name="string_popupTitle_btn_Ok">확인</string>
+    <string name="string_higetting_search_direction">경로 탐색중...</string>
+
+    <string name="string_nostrasetting_country">언어 설정</string>
+    <string name="string_nostrasetting_language">언어</string>
+    <string name="string_nostrasetting_category">카테고리</string>
+    <string name="string_wegeneral">일반</string>
+    <string name="string_wesettings">환경설정</string>
+    <string name="string_wenavigation">내비게이션</string>
+    <string name="string_wespeed_unit">속도 단위</string>
+    <string name="string_wedistance_unit">거리 단위</string>
+    <string name="string_weterm_of_use">이용 약관</string>
+    <string name="string_weversion_info">버전 정보</string>
+    <string name="string_wecopyright">저작권</string>
+    <string name="string_weuuid">UUID</string>
+
+    <string name="string_welanguage_change">언어를 변경하시겠습니까?\n일부화면은 선택된 언어로\n표시되지 않을 수 있습니다.</string>
+    <string name="string_wecountry_change">언어를 변경하시겠습니까?</string>
+
+    <string name="string_welanguage_korean">한국어</string>
+    <string name="string_welanguage_english">English</string>
+    <string name="string_welanguage_th">ไทย</string>
+    <string name="string_welanguage_zh">中國語</string>
+
+    <string name="string_hiroutelinecolor">경로 색상</string>
+    <string name="string_hirouteoptions">경로탐색 옵션</string>
+    <string name="string_hinightmode">야간 모드</string>
+    <string name="string_himapcolortheme">지도 테마</string>
+    <string name="string_hidynamiczoom">스마트 주행모드</string>
+    <string name="string_rpserver">RP 서버</string>
+    <string name="string_hihighwaymode">고속도로 주행모드</string>
+    <string name="string_himapdownload">지도 다운로드</string>
+    <string name="string_hioption_optimal">Optimal</string>
+
+    <string name="string_route_option">기본 경로탐색 옵션</string>
+    <string name="string_route_option_recomm">추천</string>
+    <string name="string_route_option_exp">고속도로 우선</string>
+    <string name="string_route_option_general">일반도로 우선</string>
+    <string name="string_route_option_short">최단거리</string>
+    <string name="string_route_option_free">무료도로 우선</string>
+
+    <string name="string_hireroute_status">경로가 재탐색되었습니다.</string>
+
+    <string name="warning_opt_route_least">최소 %1$d개 이상의 경로가 제공됩니다.</string>
+    <string name="warning_opt_route_upto">최대 %1$d개의 경로가 제공됩니다.</string>
+
+    <string name="string_korea">Republic of Korea</string>
+
+    <string name="string_hi_close">FATOS map Hi를 정말 종료 하시겠습니까?</string>
+
+    <string name="string_hi_routerecovery">FATOS map Hi 경로 이어보기</string>
+    <string name="string_hi_routebefore">이전 경로로 안내받으시겠습니까?</string>
+
+    <string name="string_btn_popup_positive">예</string>
+    <string name="string_btn_popup_negative">아니오</string>
+    <string name="string_content_route_cancel">경로 안내를 취소 하시겠습니까?</string>
+    <string name="string_title_route_cancel">경로 안내 취소</string>
+
+    <string name="string_network_error">네트워크 연결이 끊어졌습니다.\n휴대폰 네트워크 상태를 확인해주세요.</string>
+
+    <string name="string_setting_mapupdate_non_info">버전 정보 없음</string>
+    <string name="histring_buildnumber">빌드 넘버</string>
+    <string name="histring_basemapdb">배경 데이터</string>
+    <string name="histring_searchdb">검색 데이터</string>
+    <string name="histring_road">도로 데이터</string>
+    <string name="histring_sdi">안전운전데이터</string>
+
+    <string-array name="wecountry_names">
+        <item>Thailand</item>
+        <item>VietNam</item>
+        <item>Singapore</item>
+        <item>Philippines</item>
+        <item>Myanmar</item>
+        <item>Malaysia</item>
+        <item>Laos</item>
+        <item>Cambodia</item>
+        <item>Brunei</item>
+        <item>Republic of Korea</item>
+    </string-array>
+
+    <string-array name="wecountry_codes">
+        <item>TH</item>
+        <item>VN</item>
+        <item>SG</item>
+        <item>PH</item>
+        <item>MM</item>
+        <item>MY</item>
+        <item>LA</item>
+        <item>KH</item>
+        <item>BN</item>
+        <item>KR</item>
+    </string-array>
+
+    <string-array name="welanguage">
+        <item>한국어</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="onemap_country_names">
+        <item>English</item>
+        <item>中國語</item>
+        <item>ไทย</item>
+        <item>한국어</item>
+    </string-array>
+
+    <string-array name="onemap_country_codes">
+        <item>EN</item>
+        <item>CN</item>
+        <item>TH</item>
+        <item>KO</item>
+    </string-array>
+
+    <string-array name="onemap_language">
+        <item>English</item>
+        <item>中國語</item>
+        <item>ไทย</item>
+        <item>한국어</item>
+    </string-array>
+
+    <string name="onemap_route_type1">추천 경로</string>
+    <string name="onemap_route_type2">고속도로우선 경로</string>
+    <string name="onemap_route_type3">최단경로</string>
+    <string name="onemap_route_type4">고속도로우선 경로</string>
+    <string name="onemap_route_type5">무료경로</string>
+
+    <string name="route_cancel_msg">재탐색중엔 경로탐색 취소를 할 수 없습니다.</string>
+</resources>

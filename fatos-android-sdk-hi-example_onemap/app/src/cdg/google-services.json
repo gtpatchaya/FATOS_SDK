@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "118559911443",
+    "firebase_url": "https://fatosmaphi.firebaseio.com",
+    "project_id": "fatosmaphi",
+    "storage_bucket": "fatosmaphi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118559911443:android:f7aaebf6aa13138d",
+        "android_client_info": {
+          "package_name": "kr.fatos.tnavi.cdg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118559911443-bdl22qo569n5bgl1e31lhve50eui9tnn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.fatos.tnavi.cdg",
+            "certificate_hash": "f6c48d1993c608fd938c5757f450ce306c89c574"
+          }
+        },
+        {
+          "client_id": "118559911443-p0rumets2kictjmdbc7hjlgl5qb146nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8dTnfBguL8urQdgUuLLcM-IZz9FRJXk8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118559911443-p0rumets2kictjmdbc7hjlgl5qb146nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

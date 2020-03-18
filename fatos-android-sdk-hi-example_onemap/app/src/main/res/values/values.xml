@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="btn_recomm"/>
+    <item type="id" name="btn_exp"/>
+    <item type="id" name="btn_short"/>
+    <item type="id" name="btn_general"/>
+    <item type="id" name="btn_free"/>
+
+    <item type="id" name="btn_recomm_icon"/>
+    <item type="id" name="btn_exp_icon"/>
+    <item type="id" name="btn_short_icon"/>
+    <item type="id" name="btn_general_icon"/>
+    <item type="id" name="btn_free_icon"/>
+
+    <item type="id" name="btn_recomm_bar"/>
+    <item type="id" name="btn_exp_bar"/>
+    <item type="id" name="btn_short_bar"/>
+    <item type="id" name="btn_general_bar"/>
+    <item type="id" name="btn_free_bar"/>
+
+
+    <item type="id" name="summary_btn_icon"/>
+    <item type="id" name="summary_tv_text"/>
+</resources>

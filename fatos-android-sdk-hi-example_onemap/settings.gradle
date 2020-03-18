@@ -1,0 +1,6 @@
+//배포용
+include ':app'
+
+//개발용
+//include ':app',':fatos_sdk'
+//project(':fatos_sdk').projectDir=new File(settingsDir,'../Fatos/app')

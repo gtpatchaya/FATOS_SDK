@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:id="@+id/container_button"
+        android:layout_width="120dp"
+        android:layout_height="220dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="0dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/pop_button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string_go_route_from_simul" />
+
+            <Button
+                android:id="@+id/pop_button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string_cancleroute" />
+
+            <Button
+                android:id="@+id/pop_button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string_routeinfomation" />
+
+            <Button
+                android:id="@+id/pop_button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string_wesettings" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

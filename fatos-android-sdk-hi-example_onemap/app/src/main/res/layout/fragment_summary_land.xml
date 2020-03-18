@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/summary_fragment"
+    tools:context=".tnavifragment.SummaryFragment">
+
+    <!-- 상단바(출발지,목적지 영역)-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/summary_topview_rectangle"
+        android:id="@+id/linearLayout_Head"
+        android:clickable="true">
+
+        <!-- 출발지,도착지 핀 이미지 영역 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="0.5">
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="16dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@+id/img_comma"
+                    android:src="@drawable/summary_icon_start"/>
+
+                <ImageView
+                    android:id="@+id/img_comma"
+                    android:layout_marginBottom="2.5dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="6dp"
+                    android:layout_width="4dp"
+                    android:layout_height="4dp"
+                    android:src="@drawable/summary_icon_middle"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="0.5">
+                <ImageView
+                    android:id="@+id/img_comma2"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="4dp"
+                    android:layout_height="4dp"
+                    android:layout_marginBottom="6dp"
+                    android:src="@drawable/summary_icon_middle" />
+
+                <ImageView
+                    android:layout_below="@+id/img_comma2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="12dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/summary_icon_destination"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- 검색 버튼 영역 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="7.5">
+
+            <LinearLayout
+                android:id="@+id/ll_btn_start"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/summary_topview_search">
+                <TextView
+                    android:id="@+id/tv_start"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/string_via_hint"
+                    android:textColorHint="@color/lightGray"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="18dp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_btn_goal"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_height="30dp"
+                android:background="@drawable/summary_topview_search">
+                <TextView
+                    android:id="@+id/tv_goal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="New York"
+                    android:textColorHint="@color/lightGray"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="18dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 취소, 출발지 <-> 목적지 변경 이미지 영역 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/btn_route_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="0.5">
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_close_n" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btn_change_via_and_goal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="0.5">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/btn_change_n" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_summary"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_routelist"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/transparent"
+            tools:listitem="@layout/card_routepath" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:background="@drawable/tab_bg_day"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:visibility="gone">
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/bottom_ll_1"
+        android:layout_weight="0.3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/bottom_rl_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/bottom_iv_1"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="4dp"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/tab_btn_bar_recomm"/>
+
+            <ImageView
+                android:id="@+id/bottom_iv_2"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tab_btn_icon_recomm_s"/>
+
+            <TextView
+                android:id="@+id/bottom_tv_1"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#e83d45"
+                android:text="Recommend"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout_RouteDetail"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:weightSum="10">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="9.2">
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/listView_RouteDetail"
+                android:divider="@color/cardview_onemap_background"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_weight="0.8"
+            android:background="@color/cardview_onemap_background"
+            android:id="@+id/linearLayout_RouteDetailClose">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_RouteDetailClose"
+                android:src="@drawable/btn_close_n"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="weColorText">#000000</color>
+    <color name="weColorText2">#FFFFFF</color>
+    <color name="weColorHintText">#D5D5D5</color>
+    <color name="hiInfobar_color">#eaedef</color>
+    <color name="hiGeneralText">#333333</color>
+    <color name="hiTextHint">#888888</color>
+    <color name="hiListSubText">#b6925e</color>
+    <color name="hiListPopupAddrText">#F1C286</color>
+    <color name="hiListSelectColor">#EEEEEE</color>
+
+    <color name="hiSplashBackgroundColor">#2cbbb6</color>
+    <color name="onemapSplahBackgroundColor">#FCFCFC</color>
+
+    <color name="summary_bottom_recomm_text_color">#e83d45</color>
+    <color name="summary_bottom_exp_text_color">#2d57b2</color>
+    <color name="summary_bottom_short_text_color">#9160c9</color>
+    <color name="summary_bottom_general_text_color">#45b125</color>
+    <color name="summary_bottom_free_text_color">#0aa88f</color>
+
+    <color name="cardview_onemap_background">#fcfcfc</color>
+    <color name="cardview_onemap_textcolor">#337bff</color>
+    <color name="cardview_onemap_textcolor2">#20242e</color>
+
+    <color name="fmp_second_crosslist_color">#bebec0</color>
+    <color name="fmp_second_turnlist_color">#cfd0d1</color>
+    <color name="fmp_list_addr_search_color_sel">#e6e6e6</color>
+</resources>

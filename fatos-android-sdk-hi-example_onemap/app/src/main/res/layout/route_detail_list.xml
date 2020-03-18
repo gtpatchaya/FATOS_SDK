@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_onemap_background">
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="38">
+            <biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:orientation="horizontal">
+                <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout
+                    android:id="@+id/imageView2"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/imageView2"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerInParent="true">
+<!--                    <ImageView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center_horizontal"-->
+<!--                        android:src="@drawable/d_tbt2_list_arrow2" />-->
+                </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+
+                <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/imageView2">
+<!--                    <ImageView-->
+<!--                        android:layout_width="4dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:scaleType="fitCenter"-->
+<!--                        android:src="@drawable/d_tbt2_list_line" />-->
+
+                    <ImageView
+                        android:id="@+id/tbtimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:scaleType="fitCenter"
+                        android:layout_margin="10dp"/>
+                </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+
+                <View
+                    android:id="@+id/view6"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="12dp"
+                    android:background="#dbdbdb" />
+
+            </biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout>
+
+            <biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="30">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:id="@+id/linearLayout_Dir"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/crossname"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:textColor="@color/cardview_onemap_textcolor2"
+                            android:textSize="17dp"
+                            android:layout_marginLeft="3dp"
+                            android:gravity="center_vertical" />
+                    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+                    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_toRightOf="@+id/linearLayout_Dir"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:gravity="right">
+                        <TextView
+                            android:id="@+id/strdist"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:textColor="@color/cardview_onemap_textcolor2"
+                            android:textSize="17dp"
+                            android:textStyle="bold"
+                            android:gravity="center_vertical"
+                            android:lines="1"/>
+                    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="12dp"
+                    android:background="#dbdbdb" />
+            </biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+</biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout>

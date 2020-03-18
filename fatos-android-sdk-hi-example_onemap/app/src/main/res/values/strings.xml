@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FATOS map Hi</string>
+    <string name="app_registerId">kr.fatos.fatosmapHi</string>
+
+    <string name="string_wesearch">Enter your search terms</string>
+    <string name="string_weroutegoal">Enter your search terms</string>
+    <string name="string_weback">Back</string>
+    <string name="string_wemap">Map</string>
+    <string name="string_weallcate">All Category</string>
+    <string name="string_wenodata">No search results were found</string>
+    <string name="string_wesearchtext">searching...</string>
+    <string name="title_activity_tnavi_summary">TNaviSummaryActivity</string>
+    <string name="stirng_hipopuptitle">Location</string>
+    <string name="string_cancleroute">Cancel route</string>
+
+    <string name="string_go_route_from_simul">Go</string>
+    <string name="string_routeinfomation">Route Information</string>
+    <string name="string_via_hint">Current Location</string>
+
+    <string name="d">d</string>
+    <string name="hr">hr</string>
+    <string name="min">min</string>
+    <string name="eta">ETA</string>
+    <string name="day">Day</string>
+
+    <string name="h">h</string>
+    <string name="day_small">day</string>
+    <string name="days_small">days</string>
+    <string name="AM">AM</string>
+    <string name="PM">PM</string>
+    <string name="km">km</string>
+    <string name="m">m</string>
+
+    <string name="string_summary_recomm">Recommend</string>
+    <string name="string_summary_exp">Exp.way</string>
+    <string name="string_summary_short">Short</string>
+    <string name="string_summary_general">General</string>
+    <string name="string_summary_free">Free</string>
+
+    <string name="string_summary_simul">Simulation</string>
+    <string name="string_summary_go">Go</string>
+
+    <string name="string_popupTitle_error">Error!</string>
+    <string name="string_popupTitle_btn_Ok">OK</string>
+    <string name="string_higetting_search_direction">Getting directions</string>
+
+    <string name="string_nostrasetting_country">Language</string>
+    <string name="string_nostrasetting_language">Language</string>
+    <string name="string_nostrasetting_category">Category</string>
+    <string name="string_wegeneral">General</string>
+    <string name="string_wesettings">Settings</string>
+    <string name="string_wenavigation">Navigation</string>
+    <string name="string_wespeed_unit">Speed Unit</string>
+    <string name="string_wedistance_unit">Distance Unit</string>
+    <string name="string_weterm_of_use">Term of Use</string>
+    <string name="string_weversion_info">Version Info</string>
+    <string name="string_wecopyright">Copyright</string>
+    <string name="string_weuuid">UUID</string>
+
+    <string name="string_welanguage_change">Do you want to change the language setting?\nSome screens may not be displayed\nin the set language</string>
+    <string name="string_wecountry_change">Do you want to change the language setting?</string>
+
+    <string name="string_welanguage_korean">한국어</string>
+    <string name="string_welanguage_english">English</string>
+    <string name="string_welanguage_th">ไทย</string>
+    <string name="string_welanguage_zh">中國語</string>
+
+    <string name="string_hiroutelinecolor">Route line color</string>
+    <string name="string_hirouteoptions">Route options</string>
+    <string name="string_hinightmode">Night mode</string>
+    <string name="string_himapcolortheme">Map color theme</string>
+    <string name="string_hidynamiczoom">Dynamic Zoom</string>
+    <string name="string_rpserver">RP Server</string>
+    <string name="string_hihighwaymode">Highway mode</string>
+    <string name="string_himapdownload">Map download</string>
+    <string name="string_hioption_optimal">Optimal</string>
+
+    <string name="string_route_option">Basic route option</string>
+    <string name="string_route_option_recomm">Recommendation</string>
+    <string name="string_route_option_exp">Expressway</string>
+    <string name="string_route_option_general">General road</string>
+    <string name="string_route_option_short">Shortest dist.</string>
+    <string name="string_route_option_free">Free road first</string>
+
+    <string name="string_hireroute_status">The path has been rediscovered.</string>
+
+    <string name="warning_opt_route_least">At least %1$d routes are provided.</string>
+    <string name="warning_opt_route_upto">Up to %1$d routes are provided.</string>
+
+    <string name="string_korea">Republic of Korea</string>
+
+    <string name="string_hi_close">Exit FATOS map Hi?</string>
+
+    <string name="string_hi_routerecovery">FATOS map Hi Route recovery</string>
+    <string name="string_hi_routebefore">Would you like to get directions \nto the route just before?</string>
+
+    <string name="string_btn_popup_positive">Yes</string>
+    <string name="string_btn_popup_negative">No</string>
+    <string name="string_content_route_cancel">Are you sure you want to cancel your directions?</string>
+    <string name="string_title_route_cancel">Cancel route guidance</string>
+
+    <string name="string_network_error">The network connection is lost.\nPlease check your cell phone network status.</string>
+
+    <string name="string_setting_mapupdate_non_info">There is no version info.</string>
+    <string name="histring_buildnumber">Build number</string>
+    <string name="histring_basemapdb">Base map data</string>
+    <string name="histring_searchdb">POI search data</string>
+    <string name="histring_road">Road data</string>
+    <string name="histring_sdi">Safe-drive assistance data</string>
+
+    <string-array name="wecountry_names">
+        <item>Thailand</item>
+        <item>VietNam</item>
+        <item>Singapore</item>
+        <item>Philippines</item>
+        <item>Myanmar</item>
+        <item>Malaysia</item>
+        <item>Laos</item>
+        <item>Cambodia</item>
+        <item>Brunei</item>
+        <item>Republic of Korea</item>
+    </string-array>
+
+    <string-array name="wecountry_codes">
+        <item>TH</item>
+        <item>VN</item>
+        <item>SG</item>
+        <item>PH</item>
+        <item>MM</item>
+        <item>MY</item>
+        <item>LA</item>
+        <item>KH</item>
+        <item>BN</item>
+        <item>KR</item>
+    </string-array>
+
+    <string-array name="welanguage">
+        <item>한국어</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="onemap_country_names">
+        <item>English</item>
+        <item>中國語</item>
+        <item>ไทย</item>
+        <item>한국어</item>
+    </string-array>
+
+    <string-array name="onemap_country_codes">
+        <item>EN</item>
+        <item>CN</item>
+        <item>TH</item>
+        <item>KO</item>
+    </string-array>
+
+    <string-array name="onemap_language">
+        <item>English</item>
+        <item>中國語</item>
+        <item>ไทย</item>
+        <item>한국어</item>
+    </string-array>
+
+    <string name="onemap_route_type1">Recommend</string>
+    <string name="onemap_route_type2">Fastest</string>
+    <string name="onemap_route_type3">Short</string>
+    <string name="onemap_route_type4">Express</string>
+    <string name="onemap_route_type5">Free</string>
+
+    <string name="route_cancel_msg">Cant cancel path search while rescanning.</string>
+</resources>

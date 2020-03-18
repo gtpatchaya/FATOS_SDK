@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: :fatos-android-sdk:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21e0a0faab75417d479a0ad08f476767/jetified-fatos-android-sdk/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21e0a0faab75417d479a0ad08f476767/jetified-fatos-android-sdk/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
